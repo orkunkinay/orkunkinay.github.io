@@ -7,7 +7,7 @@
    [data-toc]       table of contents built from headings in [data-toc-source] */
 
 import { load, projects, inCollection, posts, drafts, everything, tagCounts, sortKey } from './data.js';
-import { esc, pad, row, projectEntry, publication, kindLabel, tagList, linkList } from './render.js';
+import { esc, row, projectEntry, publication, kindLabel, tagList, linkList } from './render.js';
 
 const $$ = (sel) => [...document.querySelectorAll(sel)];
 
