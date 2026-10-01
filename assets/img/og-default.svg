@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#f6f4ee"/>
+  <g stroke="#1b1a17" stroke-opacity=".18">
+    <path d="M80 520H1120"/>
+    <path d="M80 520v-14M120 520v-8M160 520v-8M200 520v-8M240 520v-8M280 520v-14M320 520v-8M360 520v-8M400 520v-8M440 520v-8M480 520v-14M520 520v-8M560 520v-8M600 520v-8M640 520v-8M680 520v-14M720 520v-8M760 520v-8M800 520v-8M840 520v-8M880 520v-14M920 520v-8M960 520v-8M1000 520v-8M1040 520v-8M1080 520v-14M1120 520v-14"/>
+  </g>
+  <rect x="80" y="96" width="20" height="20" fill="#d9532b"/>
+  <text x="80" y="300" font-family="Georgia, 'Times New Roman', serif" font-size="108" fill="#1b1a17" letter-spacing="-2">Orkun Kınay</text>
+  <text x="84" y="372" font-family="Menlo, Consolas, monospace" font-size="30" fill="#1b1a17" fill-opacity=".62">Research Engineer / ML Engineer</text>
+  <text x="84" y="580" font-family="Menlo, Consolas, monospace" font-size="24" fill="#1b1a17" fill-opacity=".5">orkunkinay.github.io</text>
+</svg>
