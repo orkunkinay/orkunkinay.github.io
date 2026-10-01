@@ -237,7 +237,7 @@ html[data-theme="dark"] .theme-toggle__icon { transform: rotate(180deg); }
 /* Feature entries (sparse): room for a figure. */
 .entry--feature { padding-block: var(--space-6); }
 @media (min-width: 52rem) {
-  .entry { grid-template-columns: 2.6rem minmax(0, 1fr) 8.5rem; }
+  .entry { grid-template-columns: 2.6rem minmax(0, 1fr) 11rem; }
   .entry__meta { grid-column: 3; grid-row: 1 / span 2; flex-direction: column; gap: var(--space-1); margin-top: 0; padding-top: 0.35em; text-align: right; align-items: flex-end; }
   .entry--feature { grid-template-columns: 2.6rem minmax(0, 1fr) 17rem; }
   .entry--feature .entry__meta { grid-column: 2; grid-row: auto; flex-direction: row; text-align: left; margin-top: var(--space-3); gap: 0 var(--space-4); }
