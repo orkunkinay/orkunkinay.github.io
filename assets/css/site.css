@@ -126,7 +126,7 @@ kbd, code, pre { font-family: var(--font-mono); }
 .nav { display: flex; flex-wrap: wrap; align-items: baseline; gap: var(--space-1) var(--space-5); font-family: var(--font-mono); font-size: var(--step--1); }
 .nav a { text-decoration: none; color: var(--text-soft); padding-block: var(--space-1); border-bottom: 1px solid transparent; }
 .nav a:hover { color: var(--text); border-bottom-color: var(--text); }
-.nav a[aria-current="page"] { color: var(--text); border-bottom-color: var(--accent); }
+.nav a[aria-current] { color: var(--text); border-bottom-color: var(--accent); }
 .nav kbd { font-size: 0.85em; padding: 0 0.3em; margin-left: 0.3em; border: 1px solid var(--line); border-radius: 3px; color: var(--text-faint); }
 
 .theme-toggle { background: none; border: 0; padding: var(--space-1) 0; cursor: pointer; color: var(--text-soft); font-family: var(--font-mono); font-size: var(--step--1); }

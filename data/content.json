@@ -7,10 +7,22 @@
     "description": "Research Engineer / ML Engineer working on language models, inference systems, agentic systems and ML systems."
   },
   "links": [
-    { "label": "GitHub", "url": "https://github.com/orkunkinay" },
-    { "label": "Google Scholar", "url": null },
-    { "label": "LinkedIn", "url": null },
-    { "label": "CV", "url": null }
+    {
+      "label": "GitHub",
+      "url": "https://github.com/orkunkinay"
+    },
+    {
+      "label": "Google Scholar",
+      "url": null
+    },
+    {
+      "label": "LinkedIn",
+      "url": null
+    },
+    {
+      "label": "CV",
+      "url": null
+    }
   ],
   "kinds": {
     "product": "Product",
@@ -20,113 +32,298 @@
     "writing": "Writing"
   },
   "interests": [
-    { "label": "Diffusion language model decoding", "tag": "language-models" },
-    { "label": "Workload-aware LLM inference", "tag": "inference" },
-    { "label": "Evaluating agentic systems", "tag": "agents" },
-    { "label": "Harness engineering and recursive improvement", "tag": "agents" },
-    { "label": "Provider abstraction in AI systems", "tag": "systems" },
-    { "label": "Lessons from real ML experiments", "tag": "ml-systems" }
+    {
+      "label": "Diffusion language model decoding",
+      "tag": "language-models"
+    },
+    {
+      "label": "Workload-aware LLM inference",
+      "tag": "inference"
+    },
+    {
+      "label": "Evaluating agentic systems",
+      "tag": "agents"
+    },
+    {
+      "label": "Harness engineering and recursive improvement",
+      "tag": "agents"
+    },
+    {
+      "label": "Provider abstraction in AI systems",
+      "tag": "systems"
+    },
+    {
+      "label": "Lessons from real ML experiments",
+      "tag": "ml-systems"
+    }
   ],
   "entries": [
     {
-      "collection": "projects", "slug": "vendra", "title": "Vendra", "kind": "product",
-      "year": null, "status": "placeholder", "featured": true, "feature": true,
+      "collection": "projects",
+      "slug": "vendra",
+      "title": "Vendra",
+      "kind": "product",
+      "year": null,
+      "status": "placeholder",
+      "featured": true,
+      "feature": true,
       "summary": "Agentic procurement intelligence system.",
-      "tags": ["agents", "language-models"], "links": {}
+      "tags": [
+        "agents",
+        "language-models"
+      ],
+      "links": {}
     },
     {
-      "collection": "research", "slug": "beyond-confidence",
-      "title": "Beyond Confidence: Hidden-State Augmentation of Learned Unmasking Policies for Diffusion Language Models",
-      "kind": "research", "year": 2026, "status": "placeholder", "featured": true, "inProjects": true,
-      "summary": "MSc dissertation on decoding for diffusion language models.",
-      "venue": "MSc dissertation, University of Edinburgh", "venueShort": "MSc dissertation · Edinburgh",
+      "collection": "research",
+      "slug": "global-piqa",
+      "title": "Global PIQA",
+      "kind": "research",
+      "year": 2026,
+      "status": "placeholder",
+      "featured": true,
+      "summary": "Publication at NeurIPS 2026.",
+      "venue": "NeurIPS 2026",
+      "venueShort": "NeurIPS 2026",
       "authors": null,
-      "tags": ["language-models", "inference", "research"], "links": {}
+      "tags": [
+        "language-models",
+        "NLP",
+        "research"
+      ],
+      "links": {}
     },
     {
-      "collection": "projects", "slug": "speculative-decoding-routing",
-      "title": "Learning to Route Speculative Decoding Under Workload and Traffic Regimes", "kind": "systems",
-      "year": null, "status": "placeholder", "featured": true, "feature": true,
+      "collection": "research",
+      "slug": "beyond-confidence",
+      "title": "Beyond Confidence: Hidden-State Augmentation of Learned Unmasking Policies for Diffusion Language Models",
+      "kind": "research",
+      "year": 2026,
+      "status": "placeholder",
+      "featured": true,
+      "inProjects": true,
+      "summary": "MSc dissertation on decoding for diffusion language models.",
+      "venue": "MSc dissertation, University of Edinburgh",
+      "venueShort": "MSc dissertation · Edinburgh",
+      "authors": null,
+      "tags": [
+        "language-models",
+        "inference",
+        "research"
+      ],
+      "links": {}
+    },
+    {
+      "collection": "projects",
+      "slug": "speculative-decoding-routing",
+      "title": "Learning to Route Speculative Decoding Under Workload and Traffic Regimes",
+      "kind": "systems",
+      "year": null,
+      "status": "placeholder",
+      "featured": true,
+      "feature": true,
       "summary": "Workload-aware routing for speculative decoding in LLM serving, built around vLLM.",
-      "tags": ["inference", "ml-systems", "language-models"], "links": {}
+      "tags": [
+        "inference",
+        "ml-systems",
+        "language-models"
+      ],
+      "links": {}
     },
     {
-      "collection": "projects", "slug": "openai-cost-calculator", "title": "OpenAI Cost Calculator", "kind": "open-source",
-      "year": null, "status": "placeholder", "featured": true,
+      "collection": "projects",
+      "slug": "openai-cost-calculator",
+      "title": "OpenAI Cost Calculator",
+      "kind": "open-source",
+      "year": null,
+      "status": "placeholder",
+      "featured": true,
       "summary": "Open-source Python library.",
       "stat": "45k+ PyPI downloads (Oct 2026)",
-      "tags": ["open-source", "language-models"], "links": {}
+      "tags": [
+        "open-source",
+        "language-models"
+      ],
+      "links": {}
     },
     {
-      "collection": "projects", "slug": "procurement-workflow-atlas", "title": "Vendra Procurement Workflow Atlas", "kind": "product",
-      "year": null, "status": "placeholder", "featured": false,
+      "collection": "projects",
+      "slug": "procurement-workflow-atlas",
+      "title": "Vendra Procurement Workflow Atlas",
+      "kind": "product",
+      "year": null,
+      "status": "placeholder",
+      "featured": false,
       "summary": "Git-native procurement workflow visualizer and capability-frontier tool.",
-      "tags": ["agents", "systems"], "links": {}
+      "tags": [
+        "agents",
+        "systems"
+      ],
+      "links": {}
     },
     {
-      "collection": "projects", "slug": "palimpsest", "title": "Palimpsest", "kind": "systems",
-      "year": null, "status": "placeholder", "featured": false, "feature": true,
+      "collection": "projects",
+      "slug": "palimpsest",
+      "title": "Palimpsest",
+      "kind": "systems",
+      "year": null,
+      "status": "placeholder",
+      "featured": false,
+      "feature": true,
       "summary": "Local-first AI knowledge system with structured claims, provenance, contradiction detection, semantic search and MCP-compatible access.",
-      "tags": ["language-models", "agents", "systems"], "links": {}
+      "tags": [
+        "language-models",
+        "agents",
+        "systems"
+      ],
+      "links": {}
     },
     {
-      "collection": "projects", "slug": "garden-finance", "title": "Garden Finance", "kind": "product",
-      "year": null, "status": "placeholder", "featured": false,
+      "collection": "projects",
+      "slug": "garden-finance",
+      "title": "Garden Finance",
+      "kind": "product",
+      "year": null,
+      "status": "placeholder",
+      "featured": false,
       "summary": "Investment discovery using embeddings, graph community detection and co-holding networks. Optiver Challenge winner at AdaHack.",
-      "tags": ["graphs"], "links": {}
+      "tags": [
+        "graphs"
+      ],
+      "links": {}
     },
     {
-      "collection": "research", "slug": "global-piqa", "title": "Global PIQA", "kind": "research",
-      "year": 2026, "status": "placeholder", "featured": true,
-      "summary": "Publication at NeurIPS 2026.",
-      "venue": "NeurIPS 2026", "venueShort": "NeurIPS 2026", "authors": null,
-      "tags": ["language-models", "NLP", "research"], "links": {}
-    },
-    {
-      "collection": "research", "slug": "dj-ai", "title": "DJ AI", "kind": "research",
-      "year": 2025, "status": "placeholder", "featured": true,
+      "collection": "research",
+      "slug": "dj-ai",
+      "title": "DJ AI",
+      "kind": "research",
+      "year": 2025,
+      "status": "placeholder",
+      "featured": true,
       "summary": "Publication at ACM Audio Mostly x ICAD 2025.",
-      "venue": "ACM Audio Mostly x ICAD 2025", "venueShort": "Audio Mostly × ICAD 2025", "authors": null,
-      "tags": ["audio", "research"], "links": {}
+      "venue": "ACM Audio Mostly x ICAD 2025",
+      "venueShort": "Audio Mostly × ICAD 2025",
+      "authors": null,
+      "tags": [
+        "audio",
+        "research"
+      ],
+      "links": {}
     },
     {
-      "collection": "research", "slug": "task-projection-networks", "title": "Task Projection Networks", "kind": "research",
-      "year": 2025, "status": "placeholder", "featured": true,
+      "collection": "research",
+      "slug": "task-projection-networks",
+      "title": "Task Projection Networks",
+      "kind": "research",
+      "year": 2025,
+      "status": "placeholder",
+      "featured": true,
       "summary": "Publication at IEEE SIU 2025.",
-      "venue": "IEEE SIU 2025", "venueShort": "IEEE SIU 2025", "authors": null,
-      "tags": ["research"], "links": {}
+      "venue": "IEEE SIU 2025",
+      "venueShort": "IEEE SIU 2025",
+      "authors": null,
+      "tags": [
+        "research"
+      ],
+      "links": {}
     },
     {
-      "collection": "writing", "slug": "when-not-to-use-speculative-decoding", "title": "When should you not use speculative decoding?",
-      "kind": "writing", "status": "draft", "date": null, "summary": null, "tags": ["inference"]
+      "collection": "writing",
+      "slug": "when-not-to-use-speculative-decoding",
+      "title": "When should you not use speculative decoding?",
+      "kind": "writing",
+      "status": "draft",
+      "date": null,
+      "summary": null,
+      "tags": [
+        "inference"
+      ]
     },
     {
-      "collection": "writing", "slug": "workload-aware-llm-inference", "title": "Workload-aware LLM inference",
-      "kind": "writing", "status": "draft", "date": null, "summary": null, "tags": ["inference", "ml-systems"]
+      "collection": "writing",
+      "slug": "workload-aware-llm-inference",
+      "title": "Workload-aware LLM inference",
+      "kind": "writing",
+      "status": "draft",
+      "date": null,
+      "summary": null,
+      "tags": [
+        "inference",
+        "ml-systems"
+      ]
     },
     {
-      "collection": "writing", "slug": "diffusion-language-model-decoding", "title": "Diffusion language model decoding",
-      "kind": "writing", "status": "draft", "date": null, "summary": null, "tags": ["language-models"]
+      "collection": "writing",
+      "slug": "diffusion-language-model-decoding",
+      "title": "Diffusion language model decoding",
+      "kind": "writing",
+      "status": "draft",
+      "date": null,
+      "summary": null,
+      "tags": [
+        "language-models"
+      ]
     },
     {
-      "collection": "writing", "slug": "what-hidden-states-add-beyond-confidence", "title": "What hidden states add beyond confidence",
-      "kind": "writing", "status": "draft", "date": null, "summary": null, "tags": ["language-models", "research"]
+      "collection": "writing",
+      "slug": "what-hidden-states-add-beyond-confidence",
+      "title": "What hidden states add beyond confidence",
+      "kind": "writing",
+      "status": "draft",
+      "date": null,
+      "summary": null,
+      "tags": [
+        "language-models",
+        "research"
+      ]
     },
     {
-      "collection": "writing", "slug": "evaluating-agentic-systems", "title": "Evaluating agentic systems",
-      "kind": "writing", "status": "draft", "date": null, "summary": null, "tags": ["agents"]
+      "collection": "writing",
+      "slug": "evaluating-agentic-systems",
+      "title": "Evaluating agentic systems",
+      "kind": "writing",
+      "status": "draft",
+      "date": null,
+      "summary": null,
+      "tags": [
+        "agents"
+      ]
     },
     {
-      "collection": "writing", "slug": "harness-engineering", "title": "Harness engineering and recursive improvement",
-      "kind": "writing", "status": "draft", "date": null, "summary": null, "tags": ["agents"]
+      "collection": "writing",
+      "slug": "harness-engineering",
+      "title": "Harness engineering and recursive improvement",
+      "kind": "writing",
+      "status": "draft",
+      "date": null,
+      "summary": null,
+      "tags": [
+        "agents"
+      ]
     },
     {
-      "collection": "writing", "slug": "provider-abstraction", "title": "Provider abstraction in AI systems",
-      "kind": "writing", "status": "draft", "date": null, "summary": null, "tags": ["systems"]
+      "collection": "writing",
+      "slug": "provider-abstraction",
+      "title": "Provider abstraction in AI systems",
+      "kind": "writing",
+      "status": "draft",
+      "date": null,
+      "summary": null,
+      "tags": [
+        "systems"
+      ]
     },
     {
-      "collection": "writing", "slug": "ml-systems-lessons", "title": "ML systems lessons from real experiments",
-      "kind": "writing", "status": "draft", "date": null, "summary": null, "tags": ["ml-systems"]
+      "collection": "writing",
+      "slug": "ml-systems-lessons",
+      "title": "ML systems lessons from real experiments",
+      "kind": "writing",
+      "status": "draft",
+      "date": null,
+      "summary": null,
+      "tags": [
+        "ml-systems"
+      ]
     }
   ]
 }
