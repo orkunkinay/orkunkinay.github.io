@@ -183,14 +183,24 @@
       "slug": "garden-finance",
       "title": "Garden Finance",
       "kind": "product",
-      "year": null,
-      "status": "placeholder",
+      "year": 2025,
+      "status": "published",
       "featured": false,
-      "summary": "Investment discovery using embeddings, graph community detection and co-holding networks. Optiver Challenge winner at AdaHack.",
+      "summary": "A garden that lets people experience financial concepts first and learn the terminology afterwards. Optiver Challenge winner at AdaHack 2025.",
       "tags": [
-        "graphs"
+        "financial-inclusion",
+        "education",
+        "sustainability"
       ],
-      "links": {}
+      "links": {
+        "devpost": "https://devpost.com/software/garden-finance"
+      },
+      "feature": true,
+      "stat": "Optiver Challenge winner · AdaHack 2025",
+      "image": {
+        "src": "/assets/img/garden-finance/garden-path.jpg",
+        "alt": "A low-poly garden with a central fountain and flowers that stand for investments"
+      }
     },
     {
       "collection": "research",

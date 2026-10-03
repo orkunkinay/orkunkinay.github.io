@@ -4,15 +4,15 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Garden Finance · Orkun Kınay</title>
-  <meta name="description" content="Investment discovery using embeddings, graph community detection and co-holding networks. Optiver Challenge winner at AdaHack.">
+  <meta name="description" content="A garden that lets people experience financial concepts first and learn the terminology afterwards. Optiver Challenge winner at AdaHack 2025.">
   <link rel="canonical" href="https://orkunkinay.github.io/projects/garden-finance/">
   <meta name="theme-color" content="#f6f4ee">
   <meta property="og:site_name" content="Orkun Kınay">
-  <meta property="og:type" content="website">
+  <meta property="og:type" content="article">
   <meta property="og:title" content="Garden Finance">
-  <meta property="og:description" content="Investment discovery using embeddings, graph community detection and co-holding networks. Optiver Challenge winner at AdaHack.">
+  <meta property="og:description" content="A garden that lets people experience financial concepts first and learn the terminology afterwards. Optiver Challenge winner at AdaHack 2025.">
   <meta property="og:url" content="https://orkunkinay.github.io/projects/garden-finance/">
-  <meta property="og:image" content="https://orkunkinay.github.io/assets/img/og-default.png">
+  <meta property="og:image" content="https://orkunkinay.github.io/assets/img/garden-finance/og.jpg">
   <meta name="twitter:card" content="summary_large_image">
   <link rel="icon" href="/favicon.svg" type="image/svg+xml">
   <link rel="icon" href="/favicon-32.png" sizes="32x32" type="image/png">
@@ -31,51 +31,141 @@
       <header class="page-head">
         <p class="breadcrumb"><a href="/projects/">Projects</a> / Garden Finance</p>
         <h1>Garden Finance</h1>
-        <p class="lede">Investment discovery using embeddings, graph community detection and co-holding networks. Optiver Challenge winner at AdaHack.</p>
+        <p class="lede">Can financial literacy grow like a garden?</p>
+        <p class="question">What if people could first experience financial concepts intuitively, and learn the terminology afterwards?</p>
       </header>
-      <!-- Delete the notice below once this page has real content. -->
-      <p class="notice">Placeholder page. Content is being written. <a href="?empty">Preview the section structure</a></p>
       <div class="entry-meta" data-slot="meta"></div>
 
+      <figure class="shot shot-hero">
+        <img src="/assets/img/garden-finance/garden-path.jpg" width="1600" height="800" alt="A low-poly garden with a central fountain and flowers on either side of a path. Each flower is an investment.">
+        <figcaption>fig. 1 · The garden. Investments are plants; cash waits as seeds.</figcaption>
+      </figure>
+
       <div class="entry-layout">
-        <!-- Each body is empty until it has content; empty sections are hidden. Keep `></div>` with nothing inside. -->
         <div data-toc-source>
-        <section class="entry-section" id="overview">
-          <h2>Overview</h2>
-          <div class="entry-section__body prose"></div>
-        </section>
-        <section class="entry-section" id="problem">
-          <h2>Problem</h2>
-          <div class="entry-section__body prose"></div>
-        </section>
-        <section class="entry-section" id="why-it-matters">
-          <h2>Why it matters</h2>
-          <div class="entry-section__body prose"></div>
-        </section>
-        <section class="entry-section" id="approach">
-          <h2>Approach</h2>
-          <div class="entry-section__body prose"></div>
-        </section>
-        <section class="entry-section" id="architecture">
-          <h2>System / architecture</h2>
-          <div class="entry-section__body prose"></div>
-        </section>
-        <section class="entry-section" id="experiments">
-          <h2>Experiments</h2>
-          <div class="entry-section__body prose"></div>
-        </section>
-        <section class="entry-section" id="results">
-          <h2>Results</h2>
-          <div class="entry-section__body prose"></div>
-        </section>
-        <section class="entry-section" id="learned">
-          <h2>What I learned</h2>
-          <div class="entry-section__body prose"></div>
-        </section>
-        <section class="entry-section" id="links">
-          <h2>Links</h2>
-          <div class="entry-section__body prose" data-slot="links"></div>
-        </section>
+
+          <section class="entry-section" id="idea">
+            <h2>The idea</h2>
+            <div class="entry-section__body prose prose--wide">
+              <p>A stock rises. In a traditional financial app, a number turns green.</p>
+              <p><strong>In Garden Finance, a flower grows.</strong></p>
+              <p>A volatile investment might lose and regain leaves quickly; a more stable one remains calm. Cash appears as seeds waiting to be planted. Diversification can be represented as a healthier, more varied ecosystem. The user can then enter their “Cozy House” to see the same ideas expressed through familiar financial concepts such as allocation, performance and holdings.</p>
+              <p>This is the central idea: experience first, terminology afterwards.</p>
+
+              <div class="shot-pair">
+                <figure class="shot">
+                  <img src="/assets/img/garden-finance/garden-house.jpg" width="1600" height="795" loading="lazy" alt="The garden seen from the path, with the Cozy House on the right and a ticker of market movers along the bottom.">
+                  <figcaption>fig. 2 · Walking the garden. The house on the right is the way into the familiar view.</figcaption>
+                </figure>
+                <figure class="shot">
+                  <img src="/assets/img/garden-finance/cozy-house.jpg" width="1600" height="941" loading="lazy" alt="The Cozy House screen: total value, a performance curve, an allocation ring and a holdings table.">
+                  <figcaption>fig. 3 · The Cozy House. The same portfolio as total value, performance, allocation and holdings.</figcaption>
+                </figure>
+              </div>
+
+              <table class="translate">
+                <caption>One portfolio, two languages</caption>
+                <thead><tr><th scope="col">Concept</th><th scope="col">In the garden</th><th scope="col">In the Cozy House</th></tr></thead>
+                <tbody>
+                  <tr><th scope="row">Volatility</th><td data-label="In the garden">A plant that loses and regains leaves quickly, beside one that stays calm</td><td data-label="In the Cozy House">Performance</td></tr>
+                  <tr><th scope="row">Cash</th><td data-label="In the garden">Seeds waiting to be planted</td><td data-label="In the Cozy House">Cash &amp; Bonds</td></tr>
+                  <tr><th scope="row">Diversification</th><td data-label="In the garden">A healthier, more varied ecosystem</td><td data-label="In the Cozy House">Allocation</td></tr>
+                  <tr><th scope="row">Concentration risk</th><td data-label="In the garden">A garden dominated by one type of plant</td><td data-label="In the Cozy House">Allocation</td></tr>
+                </tbody>
+              </table>
+            </div>
+          </section>
+
+          <section class="entry-section" id="why-it-matters">
+            <h2>Why it matters</h2>
+            <div class="entry-section__body prose prose--wide">
+              <p>Financial inclusion is no longer only about access. The World Bank’s <a href="https://www.worldbank.org/en/publication/globalfindex">Global Findex</a> shows that access to formal financial services has expanded substantially, including among women. But having access to an account or investment platform does not necessarily mean having the knowledge or confidence to use it effectively. The World Bank therefore treats financial capability as a combination of knowledge, skills, attitudes and behaviours, not simply access to financial products.</p>
+              <p>Financial education matters. A large meta-analysis in the <em>Journal of Financial Economics</em>, covering 76 randomised experiments and more than 160,000 participants, found that financial education improves both financial knowledge and downstream financial behaviour. But effects vary considerably depending on how education is delivered, to whom, and at what moment (<a href="https://www.sciencedirect.com/science/article/pii/S0304405X21004281">Kaiser et al., 2022</a>).</p>
+            </div>
+          </section>
+
+          <section class="entry-section" id="hypothesis">
+            <h2>The hypothesis</h2>
+            <div class="entry-section__body prose prose--wide">
+              <p>Instead of beginning with terms such as <em>volatility</em>, <em>diversification</em> or <em>asset allocation</em>, the product turns them into observable behaviour. A user might first notice that one plant moves dramatically while another grows steadily. Garden Finance can then explain that what they are seeing is volatility. A garden dominated by one type of plant can make concentration risk visible before presenting the portfolio percentages behind it.</p>
+              <p>The purpose is not to make finance “cute.” It is to reduce the distance between an abstract concept and an intuitive understanding of it.</p>
+              <p>The approach is supported indirectly by research showing that context and engagement matter. <a href="https://www.worldbank.org/en/news/video/2017/01/23/making-financial-education-entertaining">World Bank research</a> has found that embedding financial education into entertainment can improve financial knowledge and influence some financial behaviours. That does not prove that a 3D garden will work, but it supports the broader principle that <strong>financial education can become more effective when people encounter it through something they already want to engage with.</strong></p>
+              <figure class="shot">
+                <img src="/assets/img/garden-finance/stocks-modal.jpg" width="1600" height="979" loading="lazy" alt="A purple dialog titled Stocks listing Apple and Microsoft with prices and Buy buttons, over a blurred garden.">
+                <figcaption>fig. 4 · Planting: choosing an asset from inside the garden.</figcaption>
+              </figure>
+            </div>
+          </section>
+
+          <section class="entry-section" id="economic-empowerment">
+            <h2>Economic empowerment</h2>
+            <div class="entry-section__body prose prose--wide">
+              <p>Garden Finance should not be framed around the assumption that women are inherently less interested in finance. The more important issue is that women continue to face gaps in financial knowledge, confidence, access and participation.</p>
+              <p>The <a href="https://www.oecd.org/en/publications/joining-forces-for-gender-equality_67d48024-en.html">OECD</a> has documented persistent gender differences in financial literacy and confidence, while the World Bank argues that <a href="https://digitalfinance.worldbank.org/topics/gender/action-3">financial education aimed at women</a> should be designed around their actual needs, circumstances and experiences rather than delivered generically.</p>
+              <p>Garden Finance therefore asks whether a more intuitive and engaging interface could help reduce one of the barriers to participation: <strong>the feeling that finance is difficult, unfamiliar or not designed for you.</strong></p>
+
+              <h3>The impact pathway</h3>
+              <p class="chain-note">Not “Garden Finance → reduced inequality.” More realistically:</p>
+              <ol class="chain">
+                <li><span class="claim">Better engagement</span></li>
+                <li><span class="claim">Stronger financial understanding</span></li>
+                <li><span class="claim">Greater financial capability and confidence</span></li>
+                <li><span class="claim">More effective participation in financial services</span></li>
+                <li><span class="claim">Greater economic agency and resilience</span></li>
+              </ol>
+              <p>Research supports several parts of this chain, but Garden Finance still needs to prove its own contribution.</p>
+            </div>
+          </section>
+
+          <section class="entry-section" id="sustainable-development">
+            <h2>Sustainable development</h2>
+            <div class="entry-section__body prose prose--wide">
+              <p>If successful, Garden Finance could contribute to several UN Sustainable Development Goals.</p>
+              <div class="sdgs">
+                <div class="sdg"><p class="sdg__no"><small>SDG</small>5</p><div><h3><a href="https://sdgs.un.org/goals/goal5">Gender Equality</a></h3><p>The most direct fit: efforts to expand women’s economic participation and access to financial services.</p></div></div>
+                <div class="sdg"><p class="sdg__no"><small>SDG</small>8</p><div><h3><a href="https://sdgs.un.org/goals/goal8">Decent Work and Economic Growth</a></h3><p>Financial inclusion and access to finance support entrepreneurship and wider economic participation.</p></div></div>
+                <div class="sdg"><p class="sdg__no"><small>SDG</small>10</p><div><h3><a href="https://sdgs.un.org/goals/goal10">Reduced Inequalities</a></h3><p>Through the broader goal of economic inclusion.</p></div></div>
+              </div>
+              <p>These connections should not be treated as automatic impact claims. Garden Finance would need to demonstrate measurable improvements in financial understanding, confidence and behaviour.</p>
+            </div>
+          </section>
+
+          <section class="entry-section" id="research-agenda">
+            <h2>Research agenda</h2>
+            <div class="entry-section__body prose prose--wide">
+              <p>The important experiment is not whether users prefer flowers to spreadsheets. It is whether someone who learns volatility, diversification or risk through Garden Finance understands the concept better, remembers it longer and can apply it in a new financial situation.</p>
+              <p>That can be tested against conventional financial education by measuring:</p>
+              <ul class="measures">
+                <li>Engagement</li>
+                <li>Comprehension</li>
+                <li>Delayed retention</li>
+                <li>Confidence</li>
+                <li>Transfer of knowledge</li>
+              </ul>
+              <p>If Garden Finance can show meaningful improvements on those measures, its value becomes much more significant than gamification. It would suggest that one barrier to financial literacy is not only the complexity of finance itself, but <strong>the way we ask people to enter it.</strong></p>
+              <blockquote class="pullquote">People should not have to become interested in finance before finance becomes relevant to them.<cite>Sometimes understanding can begin somewhere more familiar, and grow from there.</cite></blockquote>
+            </div>
+          </section>
+
+          <section class="entry-section" id="links">
+            <h2>Links</h2>
+            <div class="entry-section__body prose prose--wide" data-slot="links"></div>
+          </section>
+
+          <section class="entry-section" id="references">
+            <h2>References</h2>
+            <div class="entry-section__body prose prose--wide">
+              <ul class="refs">
+                <li>World Bank, <em>Global Findex Database</em>. <a href="https://www.worldbank.org/en/publication/globalfindex">worldbank.org</a></li>
+                <li>OECD, <em>Joining Forces for Gender Equality</em>. <a href="https://www.oecd.org/en/publications/joining-forces-for-gender-equality_67d48024-en.html">oecd.org</a></li>
+                <li>Kaiser et al. (2022), <em>Financial education affects financial knowledge and downstream behaviors</em>, Journal of Financial Economics. <a href="https://www.sciencedirect.com/science/article/pii/S0304405X21004281">sciencedirect.com</a></li>
+                <li>World Bank, <em>Making Financial Education Entertaining</em>. <a href="https://www.worldbank.org/en/news/video/2017/01/23/making-financial-education-entertaining">worldbank.org</a></li>
+                <li>World Bank Digital Financial Services, gender topic. <a href="https://digitalfinance.worldbank.org/topics/gender/action-3">digitalfinance.worldbank.org</a></li>
+                <li>United Nations Sustainable Development Goals: <a href="https://sdgs.un.org/goals/goal5">SDG 5</a>, <a href="https://sdgs.un.org/goals/goal8">SDG 8</a>, <a href="https://sdgs.un.org/goals/goal10">SDG 10</a></li>
+              </ul>
+            </div>
+          </section>
+
         </div>
         <nav class="toc" data-toc aria-label="Contents"></nav>
       </div>
