@@ -4,7 +4,7 @@ export const esc = (s) =>
   String(s ?? '').replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' })[c]);
 
 const LINK_LABELS = {
-  paper: 'Paper', code: 'Code', repo: 'Repository', pypi: 'PyPI',
+  paper: 'Paper', devpost: 'Devpost', code: 'Code', repo: 'Repository', pypi: 'PyPI',
   demo: 'Demo', slides: 'Slides', poster: 'Poster', bibtex: 'BibTeX',
 };
 
